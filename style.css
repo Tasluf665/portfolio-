@@ -314,6 +314,10 @@ section {
   margin: auto 0;
 }
 
+.text-container{
+  text-align: justify;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -351,6 +355,7 @@ article {
 
 article .icon {
   cursor: default;
+  padding: 1rem;
 }
 
 /* PROJECTS SECTION */
