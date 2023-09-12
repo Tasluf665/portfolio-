@@ -358,6 +358,14 @@ article .icon {
   padding: 1rem;
 }
 
+/*Volunteer*/
+
+.volunteer-pic{
+  overflow: hidden;
+  object-fit:cover;
+}
+
+
 /* PROJECTS SECTION */
 
 #projects {
