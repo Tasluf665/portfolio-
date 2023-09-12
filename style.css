@@ -102,6 +102,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 1;
 }
 
 .menu-links a {
@@ -318,6 +319,20 @@ section {
   text-align: justify;
 }
 
+.about-section-pic{
+  padding: 20px 0 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .about-section-pic{
+    min-height: 300px;
+  }
+  .about-pic{
+    width: 300px;
+    height: auto;
+  }
+  
+}
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -363,6 +378,13 @@ article .icon {
 .volunteer-pic{
   overflow: hidden;
   object-fit:cover;
+}
+
+@media screen and (max-width: 500px) {
+  .volunteer-mobile-style{
+    margin-top: 3vh;
+  }
+  
 }
 
 
@@ -425,8 +447,16 @@ article .icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .contact-info-container {
+    gap: 0.5rem;
+    padding: 0.4rem;
+  }
+  
 }
 
 .contact-info-container p {
